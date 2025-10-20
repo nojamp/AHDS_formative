@@ -39,10 +39,9 @@ vignettes/*.pdf
 .Renviron
 
 # Sensitive data
-data/*
-!data/README.md
-data/derived/*
-data/derived/accel/*
-data/original/*
-data/original/accel/*
-data/sample/*
+data/
+data/derived/
+data/derived/accel/
+data/original/
+data/original/accel/
+data/sample/
