@@ -41,3 +41,8 @@ vignettes/*.pdf
 # Sensitive data
 data/*
 !data/README.md
+data/derived/*
+data/derived/accel/*
+data/original/*
+data/original/accel/*
+data/sample/*
