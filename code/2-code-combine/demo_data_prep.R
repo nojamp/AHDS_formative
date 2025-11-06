@@ -37,9 +37,10 @@ sample_info_clean <- sample_info |>
   janitor::clean_names() |> 
   select(!x1)
 
+print(head(sample_info_clean))
 bmx_d_demog_smp <- bmx_d_demog |> 
   left_join(sample_info_clean) |> 
-  relocate(in_sample = insample, .after = 1)
+  relocate(in_sample = seqn, .after = 1)
 
 # Shorten name to save typing
 bdds <- bmx_d_demog_smp
